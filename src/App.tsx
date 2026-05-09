@@ -49,8 +49,7 @@ export default function App() {
 
       <div className="w-full max-w-[380px] h-full sm:h-[680px] max-h-[850px] bg-white rounded-[48px] shadow-[0_35px_60px_-15px_rgba(255,182,193,0.3)] border-[12px] border-[#FFE5EC] overflow-hidden relative flex flex-col items-center justify-center py-12 px-6">
         {/* Status Bar Mockup */}
-        <div className="absolute top-0 left-0 right-0 h-8 flex justify-between items-center px-10 pt-4 pointer-events-none">
-          <span className="text-[10px] font-bold text-[#FFB3C1]">9:41</span>
+        <div className="absolute top-0 left-0 right-0 h-8 flex justify-end items-center px-10 pt-4 pointer-events-none">
           <div className="flex gap-1.5">
             <div className="w-3 h-3 rounded-full bg-[#FFE5EC]"></div>
             <div className="w-3 h-3 rounded-full bg-[#FFE5EC]"></div>
